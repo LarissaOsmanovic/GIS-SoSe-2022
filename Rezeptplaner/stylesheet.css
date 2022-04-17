@@ -1,12 +1,10 @@
-@font-face {
-    font-family:'Roboto', sans-serif;
-    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-}
+
 
 
 body { /* Körper */
     background: #2a2828;
     color: white;
+    font-family: 'Roboto', sans-serif;;
 }
 
 main {
@@ -281,7 +279,7 @@ input[type=text] {
           }
 
     .divTransitionen{
-        margin-left: 325px;
+        margin-left: 40%;
     }
 
     /* bei der Berührungssimulation funktioniert hovern nicht*/
@@ -289,7 +287,7 @@ input[type=text] {
 
 
 /* Auflösungen Galaxy Note 9 */
-@media  screen and (min-width:414px) and (max-width: 846px){
+@media  screen and (min-width:414px) and (max-width: 815px){
 
     header nav { /* Navigation im Kopfbereich */
         padding-top: 30px;
@@ -304,7 +302,7 @@ input[type=text] {
     }
     
     .wochenplanh1{
-            margin-left: 5px;
+        margin-left: 5px;
     }
 
     h4{
