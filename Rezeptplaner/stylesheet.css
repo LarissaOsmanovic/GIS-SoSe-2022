@@ -77,7 +77,9 @@ div p{
 h1 {
    padding: 1%;
 }
-
+.wochenplanh1{
+    margin-left: 20px;
+}
 h2 { 
     padding: 1%;
     font-size: xx-large;
@@ -85,7 +87,7 @@ h2 {
 
 h4 {
     padding: 1%;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
     margin-top: -15px;
 }
 
@@ -142,9 +144,19 @@ label{
 	width: 50%;
 }
 
+time::before {
+    content: "«";
+    color: rgba(125, 195, 124, 0.8);
+  }
+time::after {
+    content: "»";
+    color: rgba(42, 143, 74, 0.734);
+  }
+  
 time{
-    font-size: larger;
-    text-align: center;
+    font-size: 130%;
+    margin-left: 650px;
+
 }
 
 .linie {
@@ -157,12 +169,8 @@ time{
 
 /* Einkaufsliste & Checkbox */
 
-input[type="checkbox"] {
-
-}
 .einkaufsliste{
     margin-left: 10px;
-
 }
 
 input[type=text] {
@@ -240,6 +248,11 @@ input[type=text] {
 
     h4{
         margin-top: -25px;
+        margin-bottom: 40px;
+    }
+
+    .wochenplanh1{
+        margin-left: 0px;
     }
 
     img{
@@ -262,6 +275,11 @@ input[type=text] {
         width: 95%;  
         }
      
+    time {
+        font-size: 115%;
+        margin-left: 300px;
+          }
+
     .divTransitionen{
         margin-left: 325px;
     }
@@ -272,6 +290,7 @@ input[type=text] {
 
 /* Auflösungen Galaxy Note 9 */
 @media  screen and (min-width:414px) and (max-width: 846px){
+
     header nav { /* Navigation im Kopfbereich */
         padding-top: 30px;
     }
@@ -283,9 +302,16 @@ input[type=text] {
     nav a{
         font-size: 72%;
     }
+    
+    .wochenplanh1{
+            margin-left: 5px;
+    }
 
     h4{
         margin-top: -8px;
+    }
+    #einzigesP{
+        font-size: 125%;
     }
 
     img{
@@ -323,8 +349,25 @@ input[type=text] {
         width: 90%;  
     }
 
+    time {
+        font-size: 100%;
+        margin-left: 5px;
+      }
+
+    .einkaufsliste{
+        margin-left: 5px;
+    }
+
+    button{
+        margin-top: 4%;
+    }
+
+    input[type=text] {
+        width: 80%;
+      }
+
     .divTransitionen{
         margin-left: 30%;
     }
-
+    
 }
