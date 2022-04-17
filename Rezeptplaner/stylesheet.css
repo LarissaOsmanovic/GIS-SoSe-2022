@@ -2,7 +2,7 @@
 body { /* Körper */
     background: #2a2828;
     color: white;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Font wird nicht bei Chrome übernommen, aber wieso? */
 }
 
 main {
@@ -31,6 +31,8 @@ header nav { /* Navigation im Kopfbereich */
 nav a {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.912);
+    text-decoration: none;
+    font-size: 1.125rem;
 }
 
 nav a:hover, nav a:focus {
@@ -46,7 +48,7 @@ nav a:hover, nav a:focus {
 header ul {
     list-style-type: none;
     overflow: hidden;
-    text-decoration: none;
+    text-align: right;
 }
 
 header li {
@@ -56,6 +58,11 @@ header li {
 
 
 /* Schrift */
+.background{
+    background-color: rgba(41, 41, 41, 0.864);
+    
+
+}
 div p{
     text-align: center;
     font-size: larger;
@@ -90,8 +97,8 @@ h4 {
 
 /* Bilder */
 img {
-    width: 705px;
-    height: 500px;
+    width: 650px;
+    height: 450px;
     padding: 1%;
     margin-top: -50px;
 }
@@ -198,11 +205,6 @@ input[type=text] {
 }
 
 /* Footer */
-.background{
-    background-color: #c3bfbf;
-    opacity: 0.94;
-
-}
 .fa.fa-youtube {
     color: rgba(1, 141, 76, 0.904);
     font-size: 40px;   
