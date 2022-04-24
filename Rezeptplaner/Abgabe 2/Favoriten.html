@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Larissa Osmanovic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Favoriten</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul>
+                    <!-- Navigation -->
+                    <li><a class="active" href="Startseite.html">Startseite</a></li>
+                    <li><a href="Favoriten.html">Favoriten</a></li>
+                    <li><a href="Wochenplan.html">Wochenplan</a></li>
+                    <li><a href="Einkaufsliste.html">Einkaufsliste</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <figure>
+            <label for="suche">Suche</label> <!-- statt Suche das Symbol hinzufügen-->
+            <input type="search" id="search" placeholder="Nach Rezept suchen"><br />
+        </figure>
+
+        <h1>Favoriten</h1> <!-- Überschrift soll später nach unten - Media queries-->
+
+
+
+        <div class="favoritenBilder">
+            <img src="Bilder/AvocadoToast.jpeg" alt="Avocado Toast">
+            <h4>Avocado Toast mit Tomaten und Rucola</h4>
+
+            <img src="Bilder/Acaibowl.jpeg" alt="Acaibowl">
+            <h4>Acaibowl mit unterschiedlichen Früchten</h4>
+
+            <img src="Bilder/CouscousSalat.jpeg" alt="Couscous-Salat">
+            <h4>Couscous Salat mit Granatäpfeln</h4>
+        </div>
+
+        <!--  Klickt man auf das Bild: Rezept angezeigt, mit kochanleitung, Zutaten, Menge, kochzeit -->
+
+        <hr class="linie">
+    </main>
+
+    <footer>
+        <p id="einzigesP">Entdecke jeden Tag neue Rezepte!</p>
+
+        <div>
+            <p>Folg uns</p>
+        </div>
+
+
+        <div class="divTransitionen">
+            <div>
+                <!-- Icons, Soziale Medien-->
+                <link rel="stylesheet"
+                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://twitter.com/?lang=de" class="fa fa-twitter"></a>
+                <a href="https://accounts.snapchat.com" class="fa fa-snapchat"></a>
+                <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+            </div>
+        </div>  
+
+        <hr>
+
+        <div class="background">
+            <aside>Impressum</aside>
+            <aside>Datenschutzhinweise</aside>
+            <aside>AGB</aside>
+        </div>
+    </footer>
+
+</body>
+
+</html>
