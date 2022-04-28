@@ -6,6 +6,7 @@ Funktionen:
 •	Einkaufsliste: Zutatenfelder hinzufügen
 •	Verwalten von Zutaten (abgeharkte Zutaten durchstreichen & wieder hinzufügen)
 •	Rezepte im Wochenplan verwalten
+•   Rezpte unter Favoriten speichern
 •	Suchfunktion: Rezepte suchen
 •	Swipen der Bilder aus einer Kategorie
 •	Zeitraum einer Woche bestimmen
@@ -15,13 +16,18 @@ MoSCoW-Priorisierung
 Must have:
 •	Rezepte speichern und verwalten -> Bilder speichern in der Datenbank
 •	Einkaufsliste: Zutatenfelder hinzufügen
+•   Rezepte im Wochenplan verwalten
+•   Rezpte unter Favoriten speichern
 •	Rezepte im Wochenplan verwalten (aus Favoriten in den wochenplan hinzufügen)
+
 Should
 •	Zeitraum einer Woche bestimmen
 •	Anlegen von neuen Rezepten 
 •	Verwalten von Zutaten (abgeharkte Zutaten durchstreichen & wieder hinzufügen)
+
 Could 
 •	Suchfunktion: Rezepte suchen
+
 Wont have
 •	Rezepte anzeigen – Anleitung, welche Zutaten benötigt werden, für wie viele Personen
 •	Rezepte mit Freunde und Familie teilen
